@@ -1,0 +1,12 @@
+name: ConsoleSimulator
+author: Zack
+version: 0.0.1
+main: com.townykingdoms.consolesimulator.Main
+commands:
+    asconsole:
+      description: Runs a command as if by the console
+      usage: /console <command>
+permissions:
+    consolesim.access:
+      description: Allows you to use the console
+      default: op
